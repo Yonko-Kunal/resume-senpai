@@ -1,19 +1,17 @@
-import Footer from "@/components/footer";
-import Navbar from "@/components/navbar"
-import Hero from "@/components/hero";
-import Tutorial from "@/components/tutorial";
-import FeatureCard from "@/components/featureCard";
-import NextStep from "@/components/nextStep";
+import Hero from "@/components/landing/hero";
+import Tutorial from "@/components/landing/tutorial";
+import FeatureCard from "@/components/landing/featureCard";
+import NextStep from "@/components/landing/nextStep";
+import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
-    <div>
-      <Navbar />
+    <main>
+      <Navbar variant="default" />
       <Hero />
       <Tutorial />
       <FeatureCard />
       <NextStep />
-      <Footer />
-    </div>
+    </main>
   );
 }

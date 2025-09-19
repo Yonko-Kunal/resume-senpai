@@ -5,7 +5,7 @@ import { FileText } from 'lucide-react';
 
 const Tutorial = () => {
     return (
-        <div className='flex justify-center items-center flex-col w-full bg-gray-50 py-20 md:py-24 gap-6 px-[1rem]'>
+        <div className='flex justify-center items-center flex-col w-full bg-section py-20 md:py-24 gap-6 px-[1rem]'>
             <div className='flex items-center justify-center flex-col gap-6'>
                 <h1 className='text-4xl font-bold text-center'>How It Works</h1>
                 <p className='max-w-2xl mx-auto text-gray-600 md:text-xl/relaxed text-center font-light'>A simple three-step process to get your personalized resume analysis.</p>
